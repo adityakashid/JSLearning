@@ -39,3 +39,25 @@ console.log(10 == 10);
 
 var marks  = 35;
 console.log(`${marks <= 35}`);
+
+
+var marks = 70;
+var result = marks >= 60 ? "Allow him for the interview ": "Don't allow him for interview ";
+console.log(result);
+
+var age = 21;
+var res = age >= 21 ? " congruation you can marry " : "Youare small too get marry ";
+console.log(res);
+
+
+//even or odd code
+var myNumber = 7;
+var result1 = myNumber%2 ==0 ? "The number is even " : "The number is odd ";
+console.log(result1);
+
+var num1 = 10;
+var num2 = 15;
+
+var result2 = num1 > num2 ? num1 : num2;
+console.log(result2);
+

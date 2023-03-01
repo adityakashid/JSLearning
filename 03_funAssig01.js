@@ -55,8 +55,6 @@ console.log("************ QUESTION 04 *************");
 function addThreeValues(num1 , num2 , num3){
 var adding = num1+num2+num3;
 return adding;
-
-
 }
 
 
