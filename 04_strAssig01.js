@@ -55,7 +55,7 @@ console.log(aditya);
     var adityaTreamIndexOf = adityaTream.indexOf("good");
     console.log(adityaTreamIndexOf);
 
-    console.log("Printing the sub string by method of substring() : :",adityaTream.substring(22));
+    console.log("Printing the sub string by method of substring() :",adityaTream.substring(22));
     console.log("substring starting form the index 22by using slice() : ",adityaTream.slice(22));
 
     console.log("checking if the string is ends with the word up aur not ", adityaTream.includes("up"));

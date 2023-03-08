@@ -1,24 +1,24 @@
 
-// function greterNumber(num1 , num2) {
+function greterNumber(num1 , num2) {
     
-//     var result = num1 > num2 ? num1 : num2;
-//     console.log("The greter valu is : ",result);
-// }
+    var result = num1 > num2 ? num1 : num2;
+    console.log("The greter valu is : ",result);
+}
 
-// greterNumber(10 , -10);
-// greterNumber(800 , 899);
+greterNumber(10 , -10);
+greterNumber(800 , 899);
 
 
 
-// function isEvenOrOddNum( num4){
-//     console.log(num4 %2 ==0);
-//     var result1 = num4 %2 ==0 ? "even" : "odd";
-//     console.log(` The number is ${num4} and it is ${result1}`);
-// }
-// isEvenOrOddNum(29);
-// isEvenOrOddNum(44);
-// isEvenOrOddNum(0);
-// isEvenOrOddNum(101);
+function isEvenOrOddNum( num4){
+    console.log(num4 %2 ==0);
+    var result1 = num4 %2 ==0 ? "even" : "odd";
+    console.log(` The number is ${num4} and it is ${result1}`);
+}
+isEvenOrOddNum(29);
+isEvenOrOddNum(44);
+isEvenOrOddNum(0);
+isEvenOrOddNum(101);
 
 
 function wordLength(word){
