@@ -83,3 +83,32 @@ console.log(result);
 
 
 console.log(`*****************************ASSIGNMENT 01 IS DONE ******************************`);
+
+function maleMarriageEligiblity(gender , age , boyName) {
+
+  if (gender == "Male" && age >= 21 ) {
+
+    return ` ${boyName}are eligible for marriage`;
+  }
+   return ` ${boyName} are not eligible for the marriage`
+}
+
+var result = maleMarriageEligiblity("Male" ,25, "Billgates");
+console.log(result);
+var result = maleMarriageEligiblity("Male" ,17, "Stew Jobs");
+console.log(result);
+
+
+function maleMarriageEligiblity(gender , age , girlName) {
+
+  if (gender == "Female" && age >= 18 ) {
+
+    return ` ${girlName}are eligible for marriage`;
+  }
+   return ` ${girlName} are not eligible for the marriage`
+}
+
+var result = maleMarriageEligiblity("Female" ,16, "Jenifer");
+console.log(result);
+var result = maleMarriageEligiblity("Female" ,27, "Malinda Gates");
+console.log(result);
