@@ -112,3 +112,25 @@ var result = maleMarriageEligiblity("Female" ,16, "Jenifer");
 console.log(result);
 var result = maleMarriageEligiblity("Female" ,27, "Malinda Gates");
 console.log(result);
+
+
+console.log(`*****************************ASSIGNMENT 02 IS DONE ******************************`);
+
+
+
+function tcsEligibility(gradScore , hscScore , sscScore , candidateName) {
+
+  
+ if (gradScore >= 70 || hscScore >= 80 || sscScore >= 90) {
+  return `${candidateName} You are eligible for the interview `;
+ } else {
+  return`${candidateName} You are not eligible for the interview `;
+ }
+}
+var result = tcsEligibility(80,86,90,"Aditya Kashid");
+console.log(result);
+var result = tcsEligibility(70,65,55,"Mukul");
+console.log(result);
+var result = tcsEligibility(60,79,88,"Yash");
+console.log(result);
+
