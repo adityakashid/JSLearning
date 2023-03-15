@@ -50,17 +50,17 @@ function gradeCalculation(marks) {
  
   
   if (isNaN(marks) || marks == null) {
-    return `${marks} This is not a approprate data`;
+    return `${marks} This is not a approprate data }`;
   }
 
   if (marks >= 90) {
-    return `FUNTASTIC MARKS ${marks} your garade is A++`;
+    return`FUNTASTIC MARKS ${marks} your grade is A++`;
   }
   if (marks >= 75) {
-    return `EXCELENT MARKS ${marks} your garade is A`;
+    return `EXCELENT MARKS ${marks} your grade is A`;
   }
   if (marks >= 50) {
-    return `good marks ${marks} your garade is B `;
+    return `good marks ${marks} your grade is B `;
   }
   if (marks >= 35) {
     return `your grade ${marks} is C NEED IMPROVEMENT`;
