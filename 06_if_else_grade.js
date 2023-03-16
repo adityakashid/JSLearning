@@ -49,7 +49,7 @@ function gradeCalculation(marks) {
   }
  
   
-  if (isNaN(marks) || marks == null) {
+  if (isNaN(marks)) {
     return `${marks} This is not a approprate data }`;
   }
 
