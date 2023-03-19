@@ -57,3 +57,4 @@ console.log(`**********************************`);
 
 // FIND THE LEAP YEAR ASSIGNMENT NUMBER 02
 
+var str = str.charAt
