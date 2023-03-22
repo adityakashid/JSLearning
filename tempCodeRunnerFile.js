@@ -1,1 +1,3 @@
-char = char + str; 
+
+        console.log(`Plese chech the string `);
+    }
