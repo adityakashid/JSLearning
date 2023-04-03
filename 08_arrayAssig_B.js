@@ -38,16 +38,18 @@ for (let index = 0; index < arrayNumber.length; index++) {
 // Question number 6 & 7 the sum of the even & odd number from the given arry
 
 console.log(`*************EVEN NUMBER SUM ************`);
+
 let sumEvenNumber = 0;
 for (let index = 0; index < arrayNumber.length; index++) {
-    if (arrayNumber[index] %2 === 0) {
-     sumEvenNumber += arrayNumber[index];
-    }}
-    // if (element % 2 == 0) {
-    //     sumEvenNumber = sumEvenNumber + element
-        console.log(`The sum of an even number :- ${sumEvenNumber}`);
-    // }
-// }
+    if (index%2 == 0) {
+        element = arrayNumber[index];
+    console.log("the value on even index :=",element);
+     sumEvenNumber = sumEvenNumber + element;
+    }
+}
+console.log(`The sum of an even number :- ${sumEvenNumber}`);
+
+
 console.log(`**********ODD NNUMBER SUM ************`);
 let oddNumberSum =0;
 for (let index = 0; index < arrayNumber.length; index++) {

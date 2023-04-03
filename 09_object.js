@@ -7,7 +7,7 @@ let student = {
     collegeName : "ABC",
     id : 20190000141 ,
     address :{
-        street :"Waked",
+        street :"Wakad",
         city : "Pune",
         PIN : 442001
     },
@@ -15,9 +15,13 @@ let student = {
     friends :["Bill", "stew", "Elon"],//adding array in the object 
     show : function (params) {
         console.log(`i am show () function `);
+    },
+    addressDetails :function () {
+        return `street:-${this.address.street} ,city:-${this.address.city}, PIN:-${this.address.PIN}`
     }
 };
-
+let returnAddress = student.addressDetails();
+console.log(returnAddress);
 
 console.log(student);
 console.log(typeof student);
