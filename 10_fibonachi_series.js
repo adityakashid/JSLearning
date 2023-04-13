@@ -1,15 +1,15 @@
-// function fabonici(params) {
-//     let first = 1;
-//     let second = 0;
-//     let next = 0;
-// for (let index = 1; index <= params ; index++) {
-//     console.log(first);
-// next = first + second;
-// first = second;
-// second =next;  
-// }
-// }
-// fabonici(9);
+function fabonici(params) {
+    let first = 1;
+    let second = 0;
+    let next = 0;
+for (let index = 1; index <= params ; index++) {
+    console.log(first);
+next = first + second;
+first = second;
+second =next;  
+}
+}
+fabonici(9);
 
 
 // function numberss(params) {

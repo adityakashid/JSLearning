@@ -1,11 +1,11 @@
-// const arrayNumbers = [20, 31, 40, 25, 23, 11, 29, 9, 60, 2, 11];
-// const evenNumbers = [];
+const arrayNumbers = [20, 31, 40, 25, 23, 11, 29, 9, 60, 2, 11];
+const evenNumbers = [];
 
-// for (let index = 0; index < arrayNumbers.length; index++) {
-//   if (arrayNumbers[index] % 2 === 0) {
-//     evenNumbers.push(arrayNumbers[index]);
-//   }
-// }
+for (let index = 0; index < arrayNumbers.length; index++) {
+  if (arrayNumbers[index] % 2 === 0) {
+    evenNumbers.push(arrayNumbers[index]);
+  }
+}
 
 // console.log("Even numbers in the array: ", evenNumbers);
 
@@ -88,20 +88,63 @@
 //   firstName: 'Monica'
 // }
 
-// // getting property
-// Object.defineProperty(student, "getName", {
-//   get : function () {
-//       return this.firstName;
-//   }
-// });
+// // // getting property
+// // Object.defineProperty(student, "getName", {
+// //   get : function () {
+// //       return this.firstName;
+// //   }
+// // });
 
-// // setting property
-// Object.defineProperty(student, "changeName", {
-//   set : function (value) {
-//       this.firstName = value;
-//   }
-//   student.firstName = "hh";
+// // // setting property
+// // Object.defineProperty(student, "changeName", {
+// //   set : function (value) {
+// //       this.firstName = value;
+// //   }
+// //   student.firstName = "hh";
 
-// });
-// console.log(student.firstName);
+// // });
+// // console.log(student.firstName);
 
+// // function fabonici(params) {
+// //     let first = 1;
+// //     let second = 0;
+// //     let next = 0;
+// // for (let index = 1; index <= params ; index++) {
+// //     console.log(first);
+// // next = first + second;
+// // first = second;
+// // second =next;  
+// // }
+// // }
+// // // fabonici(9);
+// // var hh =;
+// // if (hh % 2 == 1) {
+// //     console.log(`it is a prime number`);
+// // }else{
+// //     console.log(`it ia not a prime number`);
+// // }
+//     // Corner case
+//         if (n <= 1)
+//             return false;
+  
+//         // Check from 2 to n-1
+//         for (let i = 2; i < n; i++)
+//             if (n % i == 0)
+    //             return false;
+  
+    //     return true;
+    // // }
+
+
+
+    function isPrime(n) {
+        if (n <= 1)
+            return false;
+        for (let i = 2; i < n; i++)
+            if (n % i == 0)
+                return false;
+  
+        return true;
+    }
+    isPrime(11);
+    console.log(isPrime);
